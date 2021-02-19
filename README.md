@@ -5,6 +5,7 @@ Szczegółowy opis problemu, zastosowanych algorytmów i uzyskanych wyników mo�
 ## Jak uruchomić plik?
 
 Polecam uruchamianie notatników w Colabie (colab.research.google.com).
+
 Proszę zwrocić uwagę na to, aby biblioteka Pillow była w wersji 8.
 W przeciwnym wypadku, obwód koła będzie ciemniejszy niż jego wypełnienie.
 Aby zaktualizować Pillowa, trzeba wykonać pierwszy blok kodu zawarty w każdym z notebooków:
@@ -13,8 +14,12 @@ Aby zaktualizować Pillowa, trzeba wykonać pierwszy blok kodu zawarty w każdym
 pass
 ```
 Najczęściej będzie po tym trzeba zrestartować środowisko uruchomieniowe.
+
 Następnie należy pobrać obrazek:
+
 <img src="https://i.imgur.com/fc2ASJh.png" alt="">
+
+
 Powinien on mieć wymiary 299 x 299 px.
 Należy go nazwać ‘monalisa.jpg’ i umieścić na swoim Dysku Google, a następnie przesłać go do Colaba wykonując kolejne bloki kodu.
 Oczywiście możliwe jest wykorzystanie innych obrazków, ale rozmiar 299 x 299 jest zahardcode’owany w paru miejscach i należałoby go wtedy zmienić.
